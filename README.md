@@ -47,3 +47,15 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `userid` (`userid`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci COMMENT='ProFTP user table';
 ```
+
+## Screenshots
+
+![Alt text](screenshots/dashboard_expiring_users.png?raw=true "Dashboard showing expiring user count")
+
+![Alt text](screenshots/listing_expiring_users.png?raw=true "Table showing expiring users")
+
+![Alt text](screenshots/selector.png?raw=true "Drop-down selector menu")
+
+![Alt text](screenshots/user_search.png?raw=true "Filtering a table results using the search input")
+
+![Alt text](screenshots/view_user.png?raw=true "Overview of a single user")
